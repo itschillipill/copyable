@@ -34,11 +34,11 @@ dev_dependencies:
 ```
 2️⃣ Annotate Your Class
 ```dart
-import 'package:copyable_plus/copyable_plus.dart';
+import 'package:copyable_plus/copyable.dart';
 
-part 'person.copyable_plus.dart';
+part 'person.copyable.dart';
 
-@copyable_plus()
+@Copyable()
 class Person {
   final String name;
   final int age;
