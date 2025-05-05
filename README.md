@@ -1,10 +1,10 @@
-# 📦 copyable
+# 📦 copyable_plus
 
 A Dart annotation and code generator that creates `copyWith`, `toJson`, and `fromJson` methods for your immutable classes.
 
 ---
 
-![Pub Version](https://img.shields.io/pub/v/copyable)
+![Pub Version](https://img.shields.io/pub/v/copyable_plus)
 ![Dart](https://img.shields.io/badge/dart-%5E3.0-blue)
 ![License](https://img.shields.io/badge/license-MIT-green)
 
@@ -26,7 +26,7 @@ A Dart annotation and code generator that creates `copyWith`, `toJson`, and `fro
 
 ```yaml
 dependencies:
-  copyable: ^0.1.0
+  copyable_plus: ^0.1.0
 
 dev_dependencies:
   build_runner: ^2.4.6
@@ -34,11 +34,11 @@ dev_dependencies:
 ```
 2️⃣ Annotate Your Class
 ```dart
-import 'package:copyable/copyable.dart';
+import 'package:copyable_plus/copyable_plus.dart';
 
-part 'person.copyable.dart';
+part 'person.copyable_plus.dart';
 
-@Copyable()
+@copyable_plus()
 class Person {
   final String name;
   final int age;
@@ -54,7 +54,7 @@ Run this in your terminal:
 dart run build_runner build
 ```
 
-This will generate a *.copyable.dart file with:
+This will generate a *.copyable_plus.dart file with:
 
 copyWith() method
 

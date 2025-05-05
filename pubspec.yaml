@@ -1,4 +1,4 @@
-name: copyable
+name: copyable_plus
 description: >-
   A Dart annotation and code generator that creates `copyWith`, `toJson`, and `fromJson`
   methods for your immutable classes.

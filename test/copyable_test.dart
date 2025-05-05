@@ -1,8 +1,8 @@
-import 'package:copyable/src/copyable_base.dart';
+import 'package:copyable_plus/src/copyable_base.dart';
 import 'package:test/test.dart'; // Подключаем сгенерированный файл
 
 void main() {
-  group('Copyable Generator', () {
+  group('copyable_plus Generator', () {
     test('copyWith returns new instance with overridden values', () {
       final person = Person(name: 'Alice', age: 25);
       final updated = person.copyWith(name: 'Bob');

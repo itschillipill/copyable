@@ -1,4 +1,4 @@
-library copyable;
+library copyable_plus;
 
 class Copyable {
   const Copyable();
