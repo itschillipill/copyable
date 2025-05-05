@@ -1,6 +1,6 @@
 // lib/copyable_example.dart
 
-import 'package:copyable_plus/copyable.dart';
+import 'package:copyable_plus/copyable_plus.dart';
 
 part 'copyable_base.copyable.dart';
 

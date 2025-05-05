@@ -34,7 +34,7 @@ dev_dependencies:
 ```
 2️⃣ Annotate Your Class
 ```dart
-import 'package:copyable_plus/copyable.dart';
+import 'package:copyable_plus/copyable_plus.dart';
 
 part 'person.copyable.dart';
 
