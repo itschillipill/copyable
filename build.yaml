@@ -8,7 +8,7 @@ targets:
 
 builders:
   copyable:
-    import: "package:copyable/src/copyable_generator.dart"
+    import: "package:copyable_plus/src/copyable_generator.dart"
     builder_factories: ["copyableGenerator"]
     build_extensions: {".dart": [".copyable.dart"]}
     auto_apply: dependents

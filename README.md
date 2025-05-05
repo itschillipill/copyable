@@ -30,7 +30,7 @@ dependencies:
 
 dev_dependencies:
   build_runner: ^2.4.6
-  source_gen: ^1.5.0
+  source_gen: ^2.0.0
 ```
 2️⃣ Annotate Your Class
 ```dart
@@ -54,7 +54,7 @@ Run this in your terminal:
 dart run build_runner build
 ```
 
-This will generate a *.copyable_plus.dart file with:
+This will generate a *.copyable.dart file with:
 
 copyWith() method
 

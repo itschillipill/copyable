@@ -29,10 +29,9 @@ class CopyableGenerator extends GeneratorForAnnotation<Copyable> {
       return "DateTime.parse(json['$name'])";
     } else if (typeStr.startsWith('List<')) {
       final innerType = typeStr.substring(5, typeStr.length - 1);
-      final deserialize =
-          _primitives.contains(innerType)
-              ? 'e as $innerType'
-              : '$innerType.fromJson(e)';
+      final deserialize = _primitives.contains(innerType)
+          ? 'e as $innerType'
+          : '$innerType.fromJson(e)';
       return "(json['$name'] as List?)?.map((e) => $deserialize).toList() ?? []";
     } else {
       return "$typeStr.fromJson(json['$name'])";
